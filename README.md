@@ -7,5 +7,5 @@ Hypothesis testing for different scenarios
 * Carring out the hypothesis test
 * Drawing inferences from the results of the tests.
 
-# Inferences:-
+# Inferences
 the inferences drawn are mentioned in the code file (commented) at the end of each question.
