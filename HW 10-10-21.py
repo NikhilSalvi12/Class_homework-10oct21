@@ -8,7 +8,7 @@ Created on Tue Oct 12 21:25:47 2021
 
 import pandas as pd
 
-mile_df = pd.read_excel('Data\Millage_data.xlsx')
+mile_df = pd.read_excel('Millage_data.xlsx')
 
 """ Q1. Find whether the average mileage driven by you is equal to 40KMPh for 
 your data. (note Use =NORM.INV(RAND(),30,2.5) in excel to generate data. 
@@ -41,7 +41,7 @@ the expected millage"""
 """ Q2. Find whether there is any significance difference in mileage between 
 you and your driver while riding in the motor vehicle. """
 
-comparemile = pd.read_excel('Data\Comparative_Millage.xlsx')
+comparemile = pd.read_excel('Comparative_Millage.xlsx')
 
 comparemile.columns
 
@@ -67,7 +67,7 @@ comparing mean we should take the decision to fire the driver"""
 """ Q3. Test whether changing your the tyre pressure affects your milage 
 or not. """
 
-tyrepresure = pd.read_excel('Data\\tyrepressuremileage.xlsx')
+tyrepresure = pd.read_excel('tyrepressuremileage.xlsx')
 
 tyrepresure.columns
 
@@ -93,7 +93,7 @@ that mileage is affected by the tyre pressure"""
 """ Q4. Test whether driving on different road condition changes your 
 mileage or not """
 
-road = pd.read_excel('Data\\roadcond_mileage.xlsx')
+road = pd.read_excel('roadcond_mileage.xlsx')
 
 road.columns
 
